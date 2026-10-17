@@ -1,0 +1,10 @@
+{
+  "name": "jasper-public-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "npm run build",
+    "preview": "python3 -m http.server --directory dist"
+  }
+}
