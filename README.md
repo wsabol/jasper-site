@@ -18,6 +18,14 @@ The generated site is written to `dist/`. `CONTACT_EMAIL` is substituted into th
 - Environment variable: `CONTACT_EMAIL` (set to the monitored public contact address)
 - Custom domain: `jasper.willsabol.com`
 
+The repository also includes `wrangler.jsonc` and the Wrangler CLI. After authenticating Wrangler with `npx wrangler login`, deploy with:
+
+```sh
+npm run deploy
+```
+
+The first deployment may prompt you to select or create the Cloudflare Pages project. Do not commit `dist/`, `.wrangler/`, or local credentials.
+
 The `_headers` file adds basic security headers. Verify the three routes after the custom domain is attached:
 
 - `https://jasper.willsabol.com/`

@@ -5,6 +5,10 @@
   "scripts": {
     "build": "node build.mjs",
     "check": "npm run build",
-    "preview": "python3 -m http.server --directory dist"
+    "preview": "python3 -m http.server --directory dist",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.1"
   }
 }
