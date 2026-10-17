@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" role="img" aria-labelledby="title desc">
+  <title id="title">Jasper logo</title>
+  <desc id="desc">An italic J inside a green circle.</desc>
+  <circle cx="75" cy="75" r="75" fill="#365847"/>
+  <text x="75" y="108" text-anchor="middle" fill="#f5f4ef" font-family="Georgia, 'Times New Roman', serif" font-size="108" font-style="italic">J</text>
+</svg>

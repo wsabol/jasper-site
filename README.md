@@ -2,6 +2,8 @@
 
 Static Cloudflare Pages site for `jasper.willsabol.com`. It has no runtime, database, authentication, analytics, or connection to the Jasper application.
 
+The reusable `logo.svg` asset is 150×150 and `favicon.svg` uses the same mark for browser tabs and bookmarks.
+
 ## Local build
 
 ```sh

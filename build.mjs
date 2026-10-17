@@ -15,4 +15,6 @@ for (const relativePath of ["index.html", "privacy/index.html", "terms/index.htm
 
 await cp(new URL("./styles.css", source), new URL("./styles.css", output));
 await cp(new URL("./_headers", source), new URL("./_headers", output));
+await cp(new URL("./logo.svg", source), new URL("./logo.svg", output));
+await cp(new URL("./favicon.svg", source), new URL("./favicon.svg", output));
 console.log(`Built ${output.pathname} with contact ${contactEmail}`);
